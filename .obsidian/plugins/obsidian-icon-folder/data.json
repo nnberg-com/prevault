@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": "#110f00",
     "recentlyUsedIcons": [
+      "LiBookTemplate",
+      "LiHelp",
       "LiCoffee",
       "LiDoorOpen",
-      "LiIndent",
-      "LiCloudDrizzle",
-      "LiTableColumnsSplit"
+      "LiIndent"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -65,5 +65,13 @@
   "_help/ru/Quartz Syncer.md": {
     "iconName": "LiCloudDrizzle",
     "iconColor": "#7c33de"
+  },
+  "_help": {
+    "iconName": "LiHelp",
+    "iconColor": "#066677"
+  },
+  "_templates": {
+    "iconName": "LiBookTemplate",
+    "iconColor": "#999786"
   }
 }
