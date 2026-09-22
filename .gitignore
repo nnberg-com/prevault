@@ -3,9 +3,7 @@ __pycache__/
 *.py[cod]
 .DS_Store
 
-community-plugins.json
 workspace.json
-
 
 main.js
 manifest.json
