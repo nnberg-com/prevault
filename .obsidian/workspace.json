@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.ru.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "README.ru"
+              "title": "README"
             }
           },
           {
@@ -199,15 +199,16 @@
   },
   "active": "603f341b08ddcede",
   "lastOpenFiles": [
+    "README.ru.md",
+    "README.md",
+    "INSTALL.ru.md",
     "_help/ru/ru.md",
     "_help/ru.md",
-    "README.ru.md",
     "_help/ru/Настройки по умолчанию.md",
     "_help/ru/Как тут писать текст.md",
     "_help/ru/Banner.md",
     "_help/ru/Claudian.md",
     "_help/ru/CSS-сниппеты.md",
-    "INSTALL.ru.md",
     "Hacksidian/atlas/! categories/text-systems.md",
     "Hacksidian/atlas/! categories/list.md",
     "Hacksidian/atlas/! categories/text.md",
@@ -224,7 +225,6 @@
     "Hacksidian/atlas/! categories/inline-code.md",
     "Hacksidian/atlas/! categories/image.md",
     "Hacksidian/atlas/! categories/hr.md",
-    "Hacksidian/atlas/! categories/heading.md",
     "_files/install-tree.png",
     "_files",
     "_help/ru/_files/banner-metadata.png",

@@ -1,10 +1,10 @@
-# `prevault` • predefined [Obsidian](https://www.obsidian.md) vault
+# `prevault` • уже настроенное [Obsidian](https://www.obsidian.md)-хранилище
 
 Вы установили [Obsidian](https://www.obsidian.md). Ииии?… Как им пользоваться?
 
 Нужно много чего настроить. Дизайн-поведение-нюансы…
 
-**[Возьмите](INSTALL.ru.md) отсюда готовый vault (хранилище).** В нём всё настроено. Остаётся только пользоваться.
+**[Возьмите](https://github.com/nnberg-com/prevault/releases/latest) готовый vault (хранилище).** В нём всё настроено. Остаётся только пользоваться.
 
 - *Что такое vault?* Каталог на диске, в котором лежат ваши Obsidian-данные. Им можно и без Obsidian пользоваться, только это чуть сложней.
 
