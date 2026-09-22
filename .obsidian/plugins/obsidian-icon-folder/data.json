@@ -1,0 +1,69 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 18,
+    "emojiStyle": "native",
+    "iconColor": "#110f00",
+    "recentlyUsedIcons": [
+      "LiDoorOpen",
+      "LiIndent",
+      "LiCloudDrizzle",
+      "LiTableColumnsSplit",
+      "LiBandage"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [
+      {
+        "rule": "_files",
+        "icon": "LiFolderArchive",
+        "for": "everything",
+        "order": 0,
+        "color": "#110f00"
+      }
+    ],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": true,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": true,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "_help/ru/Iconize.md": {
+    "iconName": "LiCoffee",
+    "iconColor": "#9d0006"
+  },
+  "_help/ru/Banner.md": {
+    "iconName": "LiBandage",
+    "iconColor": "#f3ac06"
+  },
+  "_help/ru/Dataview.md": {
+    "iconName": "LiTableColumnsSplit",
+    "iconColor": "#08849b"
+  },
+  "_help/ru/Folder notes.md": {
+    "iconName": "LiIndent",
+    "iconColor": "#817f6f"
+  },
+  "_help/ru/Claudian.md": {
+    "iconName": "LiDoorOpen",
+    "iconColor": "#a60c8b"
+  },
+  "_help/ru/Quartz Syncer.md": {
+    "iconName": "LiCloudDrizzle",
+    "iconColor": "#7c33de"
+  }
+}

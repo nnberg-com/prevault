@@ -1,0 +1,16 @@
+{
+  "livePreview": false,
+  "showInlineTitle": false,
+  "propertiesInDocument": "source",
+  "showIndentGuide": false,
+  "spellcheck": false,
+  "useTab": false,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./_files",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "userIgnoreFilters": [
+    "README.md",
+    "LICENSE"
+  ]
+}

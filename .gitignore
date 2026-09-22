@@ -1,0 +1,8 @@
+build/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+main.js
+manifest.json
+styles.css

@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "fe20d7c1ac6005aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "96a2f3a75b96ae40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "603f341b08ddcede",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "51a51de4486221c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "77f1d99fcff31410",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ba0e5aa912d5ac9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "f4def7a252c1bd15",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "4dc90f9ef40c8942",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "598a67ecbca07841",
+    "type": "split",
+    "children": [
+      {
+        "id": "615ca08d55347c19",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b9d0ce0b31e8c8b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки"
+            }
+          },
+          {
+            "id": "b4f71505bce4bcdd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки"
+            }
+          },
+          {
+            "id": "d7f5ea3970f93897",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "9fa8dc3b9b32763d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "vault-template/INSTALL.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Граф": true,
+      "canvas:Создать новый холст": true,
+      "templates:Вставить шаблон": true,
+      "command-palette:Открыть палитру команд": true,
+      "bases:Создать новую базу": true,
+      "realclaudian:Open Claudian": false
+    }
+  },
+  "active": "6ba0e5aa912d5ac9",
+  "lastOpenFiles": [
+    "README.ru.md",
+    "INSTALL.ru.md",
+    "_files/install-tree.png",
+    "_files",
+    "_help/_help.md",
+    "_help/ru/ru.md",
+    "_help/ru/CSS-сниппеты.md",
+    "_help/ru/Настройки по умолчанию.md",
+    "_help/ru/Как тут писать текст.md",
+    "_help/ru/Quartz Syncer.md",
+    "_help/ru/Iconize.md",
+    "_help/ru/Folder notes.md",
+    "_help/ru/Dataview.md",
+    "_help/ru/Claudian.md",
+    "_help/ru/Banner.md",
+    "_help/ru/_files/banner-metadata.png",
+    "_help/ru/_files/banner-menu.png",
+    "_help/ru/_files",
+    "_files/banners/vintage-sun-poster-notion-cover.webp",
+    "_media/vintage-sun-poster-notion-cover.webp",
+    "banners/banners.md",
+    "_media/banners/Новая папка.md",
+    "_media/banners/banners.md",
+    "_files/banners",
+    "Новая папка/Новая папка.md",
+    "banners/Новая папка.md",
+    "banners",
+    "Новая папка",
+    "_files/_files.md",
+    "_files/icon/icon.md",
+    "_help/_files/_files.md",
+    "_help/_files",
+    "_help/_media/_media.md",
+    "_help/_media",
+    "_help/_files",
+    "_templates/_templates.md",
+    "_media/_media.md",
+    "_files/icon/obsidian-icon.svg",
+    "_files/icon/obsidian-icon.png"
+  ]
+}

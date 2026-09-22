@@ -1,1 +1,0 @@
-# `prevault` • Predefined Obsidian Vault
