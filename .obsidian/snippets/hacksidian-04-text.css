@@ -1,0 +1,147 @@
+
+
+/* hacksidian:hack:text-system-rutter:start */
+/* По Раттеру — ритм строки. Размер текста и гарнитуры остаются пользовательскими. */
+.markdown-preview-view, .markdown-source-view {
+  --line-height-normal: 1.5;
+  --h1-size: calc(var(--font-text-size) * 2.25);
+  --h1-line-height: 1.3333333;
+  --h1-weight: 600;
+  --h1-style: normal;
+  --h2-size: calc(var(--font-text-size) * 1.875);
+  --h2-line-height: 1.2;
+  --h2-weight: 600;
+  --h2-style: normal;
+  --h3-size: calc(var(--font-text-size) * 1.5);
+  --h3-line-height: 1;
+  --h3-weight: 600;
+  --h3-style: normal;
+  --h4-size: calc(var(--font-text-size) * 1.3125);
+  --h4-line-height: 1.1428571;
+  --h4-weight: 600;
+  --h4-style: normal;
+}
+.markdown-preview-view, .markdown-source-view .cm-scroller {
+  line-height: var(--line-height-normal);
+}
+.markdown-preview-view h1, .markdown-source-view .cm-line.HyperMD-header-1 {
+  --heading-spacing: 0;
+  --p-spacing: 0;
+  font-size: var(--h1-size);
+  line-height: var(--h1-line-height);
+  font-weight: var(--h1-weight);
+  font-style: var(--h1-style);
+}
+.markdown-preview-view h1 {
+  margin-block-start: var(--heading-spacing);
+  margin-block-end: var(--p-spacing);
+}
+.markdown-source-view .cm-line.HyperMD-header-1 {
+  padding-block-start: var(--heading-spacing);
+  padding-block-end: var(--p-spacing);
+}
+.markdown-source-view .cm-line.HyperMD-header-1 + .cm-line:not(.HyperMD-header) {
+  padding-top: 0;
+}
+.markdown-preview-view h1 + p,
+.markdown-preview-view .el-h1 + .el-p > p {
+  margin-block-start: 0;
+}
+.markdown-preview-view p:has(+ h1),
+.markdown-preview-view .el-p:has(+ .el-h1) > p {
+  margin-block-end: 0;
+}
+.markdown-preview-view h2, .markdown-source-view .cm-line.HyperMD-header-2 {
+  --heading-spacing: calc(var(--font-text-size) * 1.875);
+  --p-spacing: calc(var(--font-text-size) * 0.375);
+  font-size: var(--h2-size);
+  line-height: var(--h2-line-height);
+  font-weight: var(--h2-weight);
+  font-style: var(--h2-style);
+}
+.markdown-preview-view h2 {
+  margin-block-start: var(--heading-spacing);
+  margin-block-end: var(--p-spacing);
+}
+.markdown-source-view .cm-line.HyperMD-header-2 {
+  padding-block-start: var(--heading-spacing);
+  padding-block-end: var(--p-spacing);
+}
+.markdown-source-view .cm-line.HyperMD-header-2 + .cm-line:not(.HyperMD-header) {
+  padding-top: 0;
+}
+.markdown-preview-view h2 + p,
+.markdown-preview-view .el-h2 + .el-p > p {
+  margin-block-start: 0;
+}
+.markdown-preview-view p:has(+ h2),
+.markdown-preview-view .el-p:has(+ .el-h2) > p {
+  margin-block-end: 0;
+}
+.markdown-preview-view h3, .markdown-source-view .cm-line.HyperMD-header-3 {
+  --heading-spacing: calc(var(--font-text-size) * 1.125);
+  --p-spacing: calc(var(--font-text-size) * 0.375);
+  font-size: var(--h3-size);
+  line-height: var(--h3-line-height);
+  font-weight: var(--h3-weight);
+  font-style: var(--h3-style);
+}
+.markdown-preview-view h3 {
+  margin-block-start: var(--heading-spacing);
+  margin-block-end: var(--p-spacing);
+}
+.markdown-source-view .cm-line.HyperMD-header-3 {
+  padding-block-start: var(--heading-spacing);
+  padding-block-end: var(--p-spacing);
+}
+.markdown-source-view .cm-line.HyperMD-header-3 + .cm-line:not(.HyperMD-header) {
+  padding-top: 0;
+}
+.markdown-preview-view h3 + p,
+.markdown-preview-view .el-h3 + .el-p > p {
+  margin-block-start: 0;
+}
+.markdown-preview-view p:has(+ h3),
+.markdown-preview-view .el-p:has(+ .el-h3) > p {
+  margin-block-end: 0;
+}
+.markdown-preview-view h4, .markdown-source-view .cm-line.HyperMD-header-4 {
+  --heading-spacing: calc(var(--font-text-size) * 1.125);
+  --p-spacing: calc(var(--font-text-size) * 0.375);
+  font-size: var(--h4-size);
+  line-height: var(--h4-line-height);
+  font-weight: var(--h4-weight);
+  font-style: var(--h4-style);
+}
+.markdown-preview-view h4 {
+  margin-block-start: var(--heading-spacing);
+  margin-block-end: var(--p-spacing);
+}
+.markdown-source-view .cm-line.HyperMD-header-4 {
+  padding-block-start: var(--heading-spacing);
+  padding-block-end: var(--p-spacing);
+}
+.markdown-source-view .cm-line.HyperMD-header-4 + .cm-line:not(.HyperMD-header) {
+  padding-top: 0;
+}
+.markdown-preview-view h4 + p,
+.markdown-preview-view .el-h4 + .el-p > p {
+  margin-block-start: 0;
+}
+.markdown-preview-view p:has(+ h4),
+.markdown-preview-view .el-p:has(+ .el-h4) > p {
+  margin-block-end: 0;
+}
+/* hacksidian:hack:text-system-rutter:end */
+
+/* hacksidian:hack:text-pretty:start */
+.markdown-preview-view p {
+  text-wrap: pretty;
+}
+/* hacksidian:hack:text-pretty:end */
+
+/* hacksidian:hack:text-tabular:start */
+.markdown-preview-view {
+  font-variant-numeric: lining-nums tabular-nums;
+}
+/* hacksidian:hack:text-tabular:end */

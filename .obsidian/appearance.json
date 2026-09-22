@@ -4,5 +4,29 @@
   "interfaceFontFamily": "Onest",
   "textFontFamily": "Onest",
   "monospaceFontFamily": "MesloLGL Nerd Font Mono",
-  "baseFontSize": 18
+  "baseFontSize": 18,
+  "enabledCssSnippets": [
+    "hacksidian-00-palette",
+    "hacksidian-01-meta",
+    "hacksidian-02-interface",
+    "hacksidian-03-note",
+    "hacksidian-04-text",
+    "hacksidian-05-heading",
+    "hacksidian-06-hr",
+    "hacksidian-07-link",
+    "hacksidian-08-emphasis",
+    "hacksidian-09-inline-code",
+    "hacksidian-10-tag",
+    "hacksidian-11-list",
+    "hacksidian-12-task",
+    "hacksidian-13-pseudo-task",
+    "hacksidian-14-quote",
+    "hacksidian-15-callout",
+    "hacksidian-16-table",
+    "hacksidian-17-code",
+    "hacksidian-18-image",
+    "hacksidian-19-iframe",
+    "hacksidian-20-footnote",
+    "hacksidian-21-metadata"
+  ]
 }

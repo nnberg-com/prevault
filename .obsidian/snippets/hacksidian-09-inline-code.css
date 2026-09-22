@@ -1,0 +1,10 @@
+
+
+/* hacksidian:hack:inline-code-ex-13:start */
+:is(.markdown-preview-view, .markdown-source-view) code:not(pre code) {
+  padding: .08em .3em;
+  border: 1px solid currentColor;
+  border-radius: .2em;
+}
+
+/* hacksidian:hack:inline-code-ex-13:end */

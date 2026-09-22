@@ -1,0 +1,33 @@
+
+
+/* hacksidian:hack:task-e65:start */
+:is(.markdown-preview-view, .markdown-source-view) h2 {
+  /**
+   * @parameter Подпись завершённого раздела
+   * @label-en Completed section label
+   * @type text
+   * @default "готово"
+   * @maxlength 40
+   */
+  --hacksidian-task-e65-done-label: "done";
+  /**
+   * @parameter Подпись раздела в работе
+   * @label-en In-progress section label
+   * @type text
+   * @default "в работе"
+   * @maxlength 40
+   */
+  --hacksidian-task-e65-progress-label: "in progress";
+}
+:is(.markdown-preview-view, .markdown-source-view) h2:has(+ :is(ul, ol) input[type="checkbox"])::after,
+:is(.markdown-preview-view, .markdown-source-view) .el-h2:has(+ :is(.el-ul, .el-ol) input[type="checkbox"]) > h2::after {
+  content: " · " var(--hacksidian-task-e65-progress-label);
+  font-weight: var(--font-normal);
+  color: var(--text-muted);
+}
+:is(.markdown-preview-view, .markdown-source-view) h2:has(+ :is(ul, ol) input[type="checkbox"]):not(:has(+ :is(ul, ol) input[type="checkbox"]:not(:checked)))::after,
+:is(.markdown-preview-view, .markdown-source-view) .el-h2:has(+ :is(.el-ul, .el-ol) input[type="checkbox"]):not(:has(+ :is(.el-ul, .el-ol) input[type="checkbox"]:not(:checked))) > h2::after {
+  content: " · " var(--hacksidian-task-e65-done-label) " ✓";
+  color: var(--color-green);
+}
+/* hacksidian:hack:task-e65:end */

@@ -1,0 +1,268 @@
+{
+  "format": 1,
+  "structure": 2,
+  "modules": [
+    {
+      "id": "g-palette",
+      "component": "palette",
+      "group": "palette",
+      "title": "Палитры",
+      "file": "hacksidian-00-palette.css",
+      "nativeVariables": [
+        "--background-primary",
+        "--background-secondary",
+        "--text-normal",
+        "--text-muted",
+        "--interactive-accent"
+      ]
+    },
+    {
+      "id": "g-meta",
+      "component": "meta",
+      "group": "meta",
+      "title": "Платформы и метанастройки",
+      "file": "hacksidian-01-meta.css",
+      "nativeVariables": [
+        "--file-line-width",
+        "--font-text-size",
+        "--line-height-normal"
+      ]
+    },
+    {
+      "id": "g-interface",
+      "component": "interface",
+      "group": "interface",
+      "title": "Интерфейс Obsidian",
+      "file": "hacksidian-02-interface.css",
+      "nativeVariables": [
+        "--font-interface",
+        "--ribbon-width",
+        "--sidebar-width",
+        "--tab-font-size"
+      ]
+    },
+    {
+      "id": "g-note",
+      "component": "note",
+      "group": "note",
+      "title": "Заметка",
+      "file": "hacksidian-03-note.css",
+      "nativeVariables": [
+        "--file-line-width",
+        "--file-margins"
+      ]
+    },
+    {
+      "id": "g-text",
+      "component": "text",
+      "group": "text",
+      "title": "Текст",
+      "file": "hacksidian-04-text.css",
+      "nativeVariables": [
+        "--font-text",
+        "--font-text-size",
+        "--line-height-normal",
+        "--p-spacing"
+      ]
+    },
+    {
+      "id": "g-heading",
+      "component": "heading",
+      "group": "heading",
+      "title": "Заголовки",
+      "file": "hacksidian-05-heading.css",
+      "nativeVariables": [
+        "--h1-size",
+        "--h2-size",
+        "--h3-size",
+        "--heading-spacing"
+      ]
+    },
+    {
+      "id": "g-hr",
+      "component": "hr",
+      "group": "hr",
+      "title": "Горизонтальные разделители",
+      "file": "hacksidian-06-hr.css",
+      "nativeVariables": [
+        "--hr-color",
+        "--hr-thickness"
+      ]
+    },
+    {
+      "id": "g-link",
+      "component": "link",
+      "group": "link",
+      "title": "Ссылки",
+      "file": "hacksidian-07-link.css",
+      "nativeVariables": [
+        "--link-color",
+        "--link-external-color",
+        "--link-decoration"
+      ]
+    },
+    {
+      "id": "g-emphasis",
+      "component": "emphasis",
+      "group": "emphasis",
+      "title": "Выделения",
+      "file": "hacksidian-08-emphasis.css",
+      "nativeVariables": [
+        "--bold-weight",
+        "--italic-color",
+        "--text-highlight-bg"
+      ]
+    },
+    {
+      "id": "g-inline-code",
+      "component": "inline-code",
+      "group": "inline-code",
+      "title": "Строчный код",
+      "file": "hacksidian-09-inline-code.css",
+      "nativeVariables": [
+        "--code-normal",
+        "--code-background",
+        "--code-size"
+      ]
+    },
+    {
+      "id": "g-tag",
+      "component": "tag",
+      "group": "tag",
+      "title": "Теги",
+      "file": "hacksidian-10-tag.css",
+      "nativeVariables": [
+        "--tag-color",
+        "--tag-background",
+        "--tag-radius"
+      ]
+    },
+    {
+      "id": "g-list",
+      "component": "list",
+      "group": "list",
+      "title": "Списки",
+      "file": "hacksidian-11-list.css",
+      "nativeVariables": [
+        "--list-indent",
+        "--list-spacing",
+        "--list-marker-color"
+      ]
+    },
+    {
+      "id": "g-task",
+      "component": "task",
+      "group": "task",
+      "title": "Задачи",
+      "file": "hacksidian-12-task.css",
+      "nativeVariables": [
+        "--checkbox-size",
+        "--checkbox-color",
+        "--checklist-done-color"
+      ]
+    },
+    {
+      "id": "g-pseudo-task",
+      "component": "pseudo-task",
+      "group": "pseudo-task",
+      "title": "Псевдозадачи",
+      "file": "hacksidian-13-pseudo-task.css",
+      "nativeVariables": [
+        "--checkbox-size",
+        "--checkbox-marker-color"
+      ]
+    },
+    {
+      "id": "g-quote",
+      "component": "quote",
+      "group": "quote",
+      "title": "Цитаты",
+      "file": "hacksidian-14-quote.css",
+      "nativeVariables": [
+        "--blockquote-border-color",
+        "--blockquote-border-thickness",
+        "--blockquote-font-style"
+      ]
+    },
+    {
+      "id": "g-callout",
+      "component": "callout",
+      "group": "callout",
+      "title": "Callout-блоки",
+      "file": "hacksidian-15-callout.css",
+      "nativeVariables": [
+        "--callout-color",
+        "--callout-radius",
+        "--callout-padding"
+      ]
+    },
+    {
+      "id": "g-table",
+      "component": "table",
+      "group": "table",
+      "title": "Таблицы",
+      "file": "hacksidian-16-table.css",
+      "nativeVariables": [
+        "--table-border-color",
+        "--table-border-width",
+        "--table-text-size"
+      ]
+    },
+    {
+      "id": "g-code",
+      "component": "code",
+      "group": "code",
+      "title": "Блоки кода",
+      "file": "hacksidian-17-code.css",
+      "nativeVariables": [
+        "--code-background",
+        "--code-normal",
+        "--code-size",
+        "--font-monospace"
+      ]
+    },
+    {
+      "id": "g-image",
+      "component": "image",
+      "group": "image",
+      "title": "Изображения",
+      "file": "hacksidian-18-image.css",
+      "nativeVariables": [
+        "--image-radius"
+      ]
+    },
+    {
+      "id": "g-iframe",
+      "component": "iframe",
+      "group": "iframe",
+      "title": "Встроенные страницы",
+      "file": "hacksidian-19-iframe.css",
+      "nativeVariables": [
+        "--embed-border-start",
+        "--embed-padding"
+      ]
+    },
+    {
+      "id": "g-footnote",
+      "component": "footnote",
+      "group": "footnote",
+      "title": "Сноски",
+      "file": "hacksidian-20-footnote.css",
+      "nativeVariables": [
+        "--footnote-size"
+      ]
+    },
+    {
+      "id": "g-metadata",
+      "component": "metadata",
+      "group": "metadata",
+      "title": "Свойства заметки",
+      "file": "hacksidian-21-metadata.css",
+      "nativeVariables": [
+        "--metadata-label-width",
+        "--metadata-gap",
+        "--metadata-padding"
+      ]
+    }
+  ]
+}

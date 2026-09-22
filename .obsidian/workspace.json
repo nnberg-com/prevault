@@ -11,13 +11,46 @@
             "id": "603f341b08ddcede",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_help/ru/Как тут писать текст.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Как тут писать текст"
+            }
+          },
+          {
+            "id": "fad071c588cb292e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hacksidian/atlas/! categories/list.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "list"
+            }
+          },
+          {
+            "id": "9f55a4ece7daa283",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.ru.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "README.ru"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -148,16 +181,28 @@
               "icon": "lucide-list",
               "title": "Структура"
             }
+          },
+          {
+            "id": "4c0ec13e0d1487b5",
+            "type": "leaf",
+            "state": {
+              "type": "callmered-conversation",
+              "state": {},
+              "icon": "palette",
+              "title": "Hacksidian"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 423.949951171875
   },
   "left-ribbon": {
     "hiddenItems": {
+      "hacksidian:Избранные приёмы": false,
+      "hacksidian:Открыть Hacksidian": false,
       "graph:Граф": true,
       "canvas:Создать новый холст": true,
       "templates:Вставить шаблон": true,
@@ -166,45 +211,47 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "6ba0e5aa912d5ac9",
+  "active": "9f55a4ece7daa283",
   "lastOpenFiles": [
+    "_help/ru/Как тут писать текст.md",
     "README.ru.md",
+    "Hacksidian/atlas/! categories/list.md",
+    "Hacksidian/atlas/! categories/text-systems.md",
+    "Hacksidian/atlas/! categories/text.md",
+    "Hacksidian/atlas/! categories/task.md",
+    "Hacksidian/atlas/! categories/tag.md",
+    "Hacksidian/atlas/! categories/quote.md",
+    "Hacksidian/atlas/! categories/pseudo-task.md",
+    "Hacksidian/atlas/! categories/palette.md",
+    "Hacksidian/atlas/! categories/note.md",
+    "Hacksidian/atlas/! categories/metadata.md",
+    "Hacksidian/atlas/! categories/meta.md",
+    "Hacksidian/atlas/! categories/link.md",
+    "Hacksidian/atlas/! categories/interface.md",
+    "Hacksidian/atlas/! categories/inline-code.md",
     "INSTALL.ru.md",
+    "Hacksidian/atlas/! categories/image.md",
+    "Hacksidian/atlas/! categories/hr.md",
+    "Hacksidian/atlas/! categories/heading.md",
+    "Hacksidian/atlas/! categories/footnote.md",
+    "Hacksidian/atlas/! categories/emphasis.md",
+    "Hacksidian/atlas/! categories/code.md",
+    "Hacksidian/atlas/! categories/callout.md",
+    "_help/ru/Настройки по умолчанию.md",
+    "_help/_help.md",
     "_files/install-tree.png",
     "_files",
-    "_help/_help.md",
-    "_help/ru/ru.md",
-    "_help/ru/CSS-сниппеты.md",
-    "_help/ru/Настройки по умолчанию.md",
-    "_help/ru/Как тут писать текст.md",
-    "_help/ru/Quartz Syncer.md",
-    "_help/ru/Iconize.md",
-    "_help/ru/Folder notes.md",
-    "_help/ru/Dataview.md",
-    "_help/ru/Claudian.md",
-    "_help/ru/Banner.md",
     "_help/ru/_files/banner-metadata.png",
     "_help/ru/_files/banner-menu.png",
     "_help/ru/_files",
     "_files/banners/vintage-sun-poster-notion-cover.webp",
     "_media/vintage-sun-poster-notion-cover.webp",
-    "banners/banners.md",
-    "_media/banners/Новая папка.md",
-    "_media/banners/banners.md",
     "_files/banners",
-    "Новая папка/Новая папка.md",
-    "banners/Новая папка.md",
     "banners",
     "Новая папка",
-    "_files/_files.md",
-    "_files/icon/icon.md",
-    "_help/_files/_files.md",
     "_help/_files",
-    "_help/_media/_media.md",
     "_help/_media",
     "_help/_files",
-    "_templates/_templates.md",
-    "_media/_media.md",
     "_files/icon/obsidian-icon.svg",
     "_files/icon/obsidian-icon.png"
   ]

@@ -1,0 +1,50 @@
+
+
+/* hacksidian:hack:pseudo-task-e11:start */
+:is(.markdown-preview-view, .markdown-source-view) li[data-task="/"] { --hacksidian-task-icon: "◐"; }
+:is(.markdown-preview-view, .markdown-source-view) li[data-task="x"] { --hacksidian-task-icon: "✓"; }
+:is(.markdown-preview-view, .markdown-source-view) li[data-task="-"] { --hacksidian-task-icon: "−"; }
+:is(.markdown-preview-view, .markdown-source-view) li[data-task=">"] { --hacksidian-task-icon: "→"; }
+:is(.markdown-preview-view, .markdown-source-view) li[data-task="<"] { --hacksidian-task-icon: "←"; }
+:is(.markdown-preview-view, .markdown-source-view) li[data-task="?"] { --hacksidian-task-icon: "?"; }
+:is(.markdown-preview-view, .markdown-source-view) li[data-task="!"] { --hacksidian-task-icon: "!"; }
+:is(.markdown-preview-view, .markdown-source-view) li[data-task="*"] { --hacksidian-task-icon: "★"; }
+:is(.markdown-preview-view, .markdown-source-view) li[data-task="\""] { --hacksidian-task-icon: "❝"; }
+:is(.markdown-preview-view, .markdown-source-view) li[data-task="l"] { --hacksidian-task-icon: "⌖"; }
+:is(.markdown-preview-view, .markdown-source-view) li[data-task="b"] { --hacksidian-task-icon: "⚑"; }
+:is(.markdown-preview-view, .markdown-source-view) li[data-task="i"] { --hacksidian-task-icon: "i"; }
+:is(.markdown-preview-view, .markdown-source-view) li[data-task="S"] { --hacksidian-task-icon: "$"; }
+:is(.markdown-preview-view, .markdown-source-view) li[data-task="I"] { --hacksidian-task-icon: "✦"; }
+:is(.markdown-preview-view, .markdown-source-view) li[data-task="p"] { --hacksidian-task-icon: "+"; }
+:is(.markdown-preview-view, .markdown-source-view) li[data-task="c"] { --hacksidian-task-icon: "−"; }
+:is(.markdown-preview-view, .markdown-source-view) li[data-task="f"] { --hacksidian-task-icon: "♨"; }
+:is(.markdown-preview-view, .markdown-source-view) li[data-task="k"] { --hacksidian-task-icon: "⚿"; }
+:is(.markdown-preview-view, .markdown-source-view) li[data-task="w"] { --hacksidian-task-icon: "♜"; }
+:is(.markdown-preview-view, .markdown-source-view) li[data-task="u"] { --hacksidian-task-icon: "↑"; }
+:is(.markdown-preview-view, .markdown-source-view) li[data-task="d"] { --hacksidian-task-icon: "↓"; }
+
+:is(.markdown-preview-view, .markdown-source-view) li:is([data-task="/"], [data-task="x"], [data-task="-"], [data-task=">"], [data-task="<"], [data-task="?"], [data-task="!"], [data-task="*"], [data-task="\""], [data-task="l"], [data-task="b"], [data-task="i"], [data-task="S"], [data-task="I"], [data-task="p"], [data-task="c"], [data-task="f"], [data-task="k"], [data-task="w"], [data-task="u"], [data-task="d"]) > input[type="checkbox"],
+:is(.markdown-preview-view, .markdown-source-view) li:is([data-task="/"], [data-task="x"], [data-task="-"], [data-task=">"], [data-task="<"], [data-task="?"], [data-task="!"], [data-task="*"], [data-task="\""], [data-task="l"], [data-task="b"], [data-task="i"], [data-task="S"], [data-task="I"], [data-task="p"], [data-task="c"], [data-task="f"], [data-task="k"], [data-task="w"], [data-task="u"], [data-task="d"]) > p:first-child > input[type="checkbox"] {
+  border-color: transparent;
+  background: transparent;
+}
+:is(.markdown-preview-view, .markdown-source-view) li:is([data-task="/"], [data-task="x"], [data-task="-"], [data-task=">"], [data-task="<"], [data-task="?"], [data-task="!"], [data-task="*"], [data-task="\""], [data-task="l"], [data-task="b"], [data-task="i"], [data-task="S"], [data-task="I"], [data-task="p"], [data-task="c"], [data-task="f"], [data-task="k"], [data-task="w"], [data-task="u"], [data-task="d"]) > input[type="checkbox"]::after,
+:is(.markdown-preview-view, .markdown-source-view) li:is([data-task="/"], [data-task="x"], [data-task="-"], [data-task=">"], [data-task="<"], [data-task="?"], [data-task="!"], [data-task="*"], [data-task="\""], [data-task="l"], [data-task="b"], [data-task="i"], [data-task="S"], [data-task="I"], [data-task="p"], [data-task="c"], [data-task="f"], [data-task="k"], [data-task="w"], [data-task="u"], [data-task="d"]) > p:first-child > input[type="checkbox"]::after {
+  content: var(--hacksidian-task-icon);
+  position: absolute;
+  inset: 0;
+  width: auto;
+  height: auto;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  background: none;
+  -webkit-mask: none;
+  mask: none;
+  font-family: var(--font-text);
+  font-size: var(--checkbox-size);
+  line-height: 1;
+  color: var(--text-normal);
+  pointer-events: none;
+}
+/* hacksidian:hack:pseudo-task-e11:end */
