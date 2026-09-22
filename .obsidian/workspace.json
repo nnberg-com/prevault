@@ -13,30 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_help/ru/Как тут писать текст.md",
+                "file": "README.ru.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Как тут писать текст"
+              "title": "README.ru"
             }
           },
           {
             "id": "fad071c588cb292e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hacksidian/atlas/! categories/list.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "list"
-            }
-          },
-          {
-            "id": "9f55a4ece7daa283",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,8 +35,7 @@
               "title": "README.ru"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 423.949951171875
+    "width": 423.949951171875,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,12 +197,19 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "9f55a4ece7daa283",
+  "active": "603f341b08ddcede",
   "lastOpenFiles": [
-    "_help/ru/Как тут писать текст.md",
+    "_help/ru/ru.md",
+    "_help/ru.md",
     "README.ru.md",
-    "Hacksidian/atlas/! categories/list.md",
+    "_help/ru/Настройки по умолчанию.md",
+    "_help/ru/Как тут писать текст.md",
+    "_help/ru/Banner.md",
+    "_help/ru/Claudian.md",
+    "_help/ru/CSS-сниппеты.md",
+    "INSTALL.ru.md",
     "Hacksidian/atlas/! categories/text-systems.md",
+    "Hacksidian/atlas/! categories/list.md",
     "Hacksidian/atlas/! categories/text.md",
     "Hacksidian/atlas/! categories/task.md",
     "Hacksidian/atlas/! categories/tag.md",
@@ -229,16 +222,9 @@
     "Hacksidian/atlas/! categories/link.md",
     "Hacksidian/atlas/! categories/interface.md",
     "Hacksidian/atlas/! categories/inline-code.md",
-    "INSTALL.ru.md",
     "Hacksidian/atlas/! categories/image.md",
     "Hacksidian/atlas/! categories/hr.md",
     "Hacksidian/atlas/! categories/heading.md",
-    "Hacksidian/atlas/! categories/footnote.md",
-    "Hacksidian/atlas/! categories/emphasis.md",
-    "Hacksidian/atlas/! categories/code.md",
-    "Hacksidian/atlas/! categories/callout.md",
-    "_help/ru/Настройки по умолчанию.md",
-    "_help/_help.md",
     "_files/install-tree.png",
     "_files",
     "_help/ru/_files/banner-metadata.png",

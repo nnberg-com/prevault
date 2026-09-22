@@ -1,7 +1,7 @@
 ---
 icon: LiBandage
 iconColor: f3ac06
-banner: "_media/banners/vintage-sun-poster-notion-cover.webp"
+banner: "_files/banners/vintage-sun-poster-notion-cover.webp"
 ---
 
 # Banner
@@ -16,7 +16,7 @@ https://github.com/noatpad/obsidian-banners
 > Пора. Иначе никак.
 
 Как указать картинку? В метаданных страницы в поле banner. Картинка баннера должна лежать в вашем Obsidian. Путь к ней должен быть от корня хранилища. Да, ничего непонятно. Делайте так:
-1. Найдите картинку в дереве слева. Например, в `_media/banners`
+1. Найдите картинку в дереве слева. Например, в `_files/banners`
 2. Нажмите на ней правой кнопкой мыши.
 3. Выберите пункт высплывающего меню: Копировать путь → из папки хранилища. ![[banner-menu.png]]
 4. Путь к картинке скопирован в буфер обмена. Вставьте его в поле banner метаданных страницы. ![[banner-metadata.png]]

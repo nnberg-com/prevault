@@ -12,5 +12,6 @@
   "userIgnoreFilters": [
     "README.md",
     "LICENSE"
-  ]
+  ],
+  "readableLineLength": false
 }
