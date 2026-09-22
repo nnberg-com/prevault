@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "INSTALL.ru.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "INSTALL.ru"
             }
           },
           {
@@ -199,8 +199,8 @@
   },
   "active": "603f341b08ddcede",
   "lastOpenFiles": [
-    "README.ru.md",
     "README.md",
+    "README.ru.md",
     "INSTALL.ru.md",
     "_help/ru/ru.md",
     "_help/ru.md",
