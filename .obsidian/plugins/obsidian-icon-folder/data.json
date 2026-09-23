@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": "#110f00",
     "recentlyUsedIcons": [
-      "LiBookTemplate",
-      "LiHelp",
+      "LiCloudDrizzle",
       "LiCoffee",
-      "LiDoorOpen",
-      "LiIndent"
+      "LiIndent",
+      "LiTableColumnsSplit",
+      "LiBandage"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
