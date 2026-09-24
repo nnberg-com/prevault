@@ -73,5 +73,9 @@
   "_templates": {
     "iconName": "LiBookTemplate",
     "iconColor": "#999786"
+  },
+  "_help/ru/Horizontal Blocks.md": {
+    "iconName": "LiBarcode",
+    "iconColor": "#d6670e"
   }
 }

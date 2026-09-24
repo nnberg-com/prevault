@@ -27,6 +27,15 @@
     "hacksidian-18-image",
     "hacksidian-19-iframe",
     "hacksidian-20-footnote",
-    "hacksidian-21-metadata"
+    "hacksidian-21-metadata",
+    "hacksidian-11-unordered",
+    "hacksidian-13-taskplus",
+    "hacksidian-22-composition",
+    "hacksidian-23-strike",
+    "hacksidian-24-combinations",
+    "hacksidian-25-ordered",
+    "hacksidian-26-callin",
+    "hacksidian-27-imagelist",
+    "hacksidian-plugin-horizontal-blocks"
   ]
 }

@@ -15,36 +15,4 @@
 
 /* hacksidian:hack:emphasis-s19:end */
 
-/* hacksidian:hack:emphasis-s31:start */
-:is(.markdown-preview-view, .markdown-source-view) :is(del,s) {
-  display: inline-block;
-  position: relative;
-  text-decoration: none;
-}
-:is(.markdown-preview-view, .markdown-source-view) :is(del,s)::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  height: 2px;
-  background: var(--interactive-accent);
-  transform: rotate(-8deg);
-}
-:is(.markdown-preview-view, .markdown-source-view) :is(del,s) {
-  display: inline-block;
-  position: relative;
-  text-decoration: none;
-}
-:is(.markdown-preview-view, .markdown-source-view) :is(del,s)::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  height: 2px;
-  background: var(--interactive-accent);
-  transform: rotate(-8deg);
-}
 
-/* hacksidian:hack:emphasis-s31:end */

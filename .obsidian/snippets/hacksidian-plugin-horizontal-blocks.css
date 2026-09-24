@@ -1,0 +1,110 @@
+
+
+/* hacksidian:hack:plugin-horizontal-blocks-plain:start */
+/* Reset the plugin's layout chrome, not the Markdown inside each column. */
+:is(.markdown-preview-view, .markdown-source-view) .horizontal-block-container {
+  /**
+   * @parameter Промежуток между колонками
+   * @label-en Column gap
+   * @type number
+   * @default 24px
+   * @unit px
+   * @min 0
+   * @max 200
+   * @step 1
+   */
+  --hacksidian-horizontal-blocks-gap: 12px;
+  /* The resizer is the entire edge-to-edge column gap, not two flex gaps. */
+  gap: 0 !important;
+  min-height: 0 !important;
+}
+
+:is(.markdown-preview-view, .markdown-source-view) .horizontal-block-container,
+:is(.markdown-preview-view, .markdown-source-view) .horizontal-block-container :is(
+  .hblocks-resizable,
+  .hblocks-md-preview,
+  .hblocks-resizer,
+  .horizontal-blocks-embed-container,
+  .horizontal-blocks-embed,
+  .horizontal-blocks-embed-view-container
+),
+:is(.markdown-preview-view, .markdown-source-view) .horizontal-blocks-embed :is(
+  .view-content, .markdown-source-view, .cm-editor, .cm-scroller, .cm-sizer, .cm-content
+) {
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  outline: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  font-style: inherit !important;
+  line-height: inherit !important;
+  color: inherit !important;
+  text-shadow: none !important;
+  opacity: 1 !important;
+  filter: none !important;
+  backdrop-filter: none !important;
+}
+
+/* Theme decorations attached to the plugin's wrappers are also removed. */
+:is(.markdown-preview-view, .markdown-source-view) .horizontal-block-container::before,
+:is(.markdown-preview-view, .markdown-source-view) .horizontal-block-container::after,
+:is(.markdown-preview-view, .markdown-source-view) .horizontal-block-container :is(
+  .hblocks-resizable, .hblocks-md-preview, .hblocks-resizer,
+  .horizontal-blocks-embed-container, .horizontal-blocks-embed,
+  .horizontal-blocks-embed-view-container
+)::before,
+:is(.markdown-preview-view, .markdown-source-view) .horizontal-block-container :is(
+  .hblocks-resizable, .hblocks-md-preview, .hblocks-resizer,
+  .horizontal-blocks-embed-container, .horizontal-blocks-embed,
+  .horizontal-blocks-embed-view-container
+)::after {
+  content: none !important;
+}
+
+:is(.markdown-preview-view, .markdown-source-view) .horizontal-block-container .hblocks-resizable {
+  min-width: 0;
+}
+
+/* The plugin clips the outer boxes and makes each Markdown preview scrollable.
+   Inline-code borders/padding can extend beyond the last paragraph's line box:
+   do not clip them or create a column-local scrollbar for this paint overflow.
+   Keep Markdown's own code/table scrollers and the embedded editor untouched. */
+:is(.markdown-preview-view, .markdown-source-view) .horizontal-block-container,
+:is(.markdown-preview-view, .markdown-source-view) .horizontal-block-container :is(
+  .hblocks-resizable, .hblocks-md-preview,
+  .horizontal-blocks-embed-container, .horizontal-blocks-embed,
+  .horizontal-blocks-embed-view-container
+) {
+  overflow: visible !important;
+}
+
+:is(.markdown-preview-view, .markdown-source-view) .horizontal-block-container .horizontal-blocks-embed-view-container {
+  max-height: none !important;
+}
+
+/* Keep the existing drag handler and saved column widths. */
+:is(.markdown-preview-view, .markdown-source-view) .horizontal-block-container > .hblocks-resizer {
+  box-sizing: border-box !important;
+  flex: 0 0 var(--hacksidian-horizontal-blocks-gap) !important;
+  width: var(--hacksidian-horizontal-blocks-gap) !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  align-self: stretch;
+  opacity: 0 !important;
+}
+
+:is(.markdown-preview-view, .markdown-source-view) .horizontal-block-container :is(
+  .hblocks-toolbar, .hblocks-block-title
+) {
+  display: none !important;
+}
+
+:is(.markdown-preview-view, .markdown-source-view) .horizontal-block-container .horizontal-blocks-embed {
+  gap: 0 !important;
+}
+/* hacksidian:hack:plugin-horizontal-blocks-plain:end */
